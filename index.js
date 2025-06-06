@@ -46,7 +46,7 @@ app.post("/api/users", (req, res) => {
     }
 
 
-    //return 400 if user already exists
+    //return 400 if user already exists fgrg
 
     const userId = generateUserId();
     const user = {
