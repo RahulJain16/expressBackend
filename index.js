@@ -14,7 +14,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// Authentication middleware (for testing)
+// Authentication midvdfgedfgdleware (for testing)
 app.use('/api', (req, res, next) => {
     console.log('API route accessed');
     next();
